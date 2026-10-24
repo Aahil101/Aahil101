@@ -1,157 +1,99 @@
-<!-- Profile README for github.com/Aahil101 -->
+# Shaik Aahil Farhan
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=210&section=header&text=Shaik%20Aahil%20Farhan&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20Student%20%E2%80%A2%20Software%20Engineer%20%E2%80%A2%20AI%20Builder&descAlignY=58&descSize=16" alt="Shaik Aahil Farhan banner" width="100%" />
-</p>
+**Computer Science Student · Software Engineer · Applied AI**
 
-<p align="center">
-  <a href="https://github.com/Aahil101">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=4DA3FF&center=true&vCenter=true&width=650&lines=Building+AI+systems+that+show+their+work;Designing+reliable+distributed+systems;Turning+data+into+useful+products;Measure+first.+Build+better." alt="Typing tagline" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-Bangalore%2C%20India-4DA3FF?style=flat-square&logo=googlemaps&logoColor=white" alt="Location: Bangalore" />
-  <img src="https://komarev.com/ghpvc/?username=Aahil101&style=flat-square&color=2c5364&label=Profile+views" alt="Profile views" />
-</p>
+Bangalore, India
 
 ---
 
-### 👋 About me
+I build software that is reliable, measurable, and easy to reason about. My work centres on
+retrieval-augmented generation, machine-learning reliability, and distributed systems, with an
+emphasis on evaluating every claim against a baseline rather than relying on demos.
 
-```python
-class Aahil:
-    role       = "Computer Science student & aspiring software engineer"
-    based_in   = "Bangalore, India"
-    focus      = ["RAG systems", "AI products", "Distributed systems", "ML reliability"]
-    principles = ["Measure before you claim", "Build for real users", "Keep systems explainable"]
-    currently  = "Creating software that is useful, reliable, and easy to understand"
-```
+**Areas of focus**
 
-- 🤖 I build AI systems that are **grounded, measurable, and honest about uncertainty**.
-- ⚙️ I enjoy working across **retrieval, backend systems, data pipelines, and polished interfaces**.
-- 🧪 I prefer projects with benchmarks, failure analysis, and reproducible engineering over vague demos.
-- 🌱 Practising DSA with [NeetCode](https://github.com/Aahil101/neetcode-submissions) while shipping projects.
+- **Retrieval and LLM systems** — hybrid retrieval, reranking, grounded answers with citations, self-correcting pipelines
+- **ML reliability** — benchmark design, drift monitoring, out-of-distribution detection, honest evaluation
+- **Distributed systems** — consensus (RAFT), stream processing with Kafka and Spark, fault tolerance
+- **Full-stack product engineering** — FastAPI services, React and TypeScript frontends, clean user-facing design
 
 ---
 
-### 🛠️ Tech stack
+## Selected Work
 
-**Languages & frontend**
-<p>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,bash,react,vite&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS, Bash, React and Vite" />
-</p>
+| Project | Description | Key result |
+|---|---|---|
+| [**PaperTrail**](https://github.com/Aahil101/papertrail) | Question answering over PDFs with page-level citations, using table-aware ingestion, hybrid BM25 + dense retrieval (RRF) and cross-encoder reranking. Runs on CPU at zero cost. | hit@1 improved from **84.9% to 95.0%** on a 129-question benchmark |
+| [**Adaptive RAG Reliability Engine**](https://github.com/Aahil101/-Adaptive-RAG-Reliability-Engine) | Self-correcting RAG over SEC filings that grades retrieval, rewrites failed queries, verifies answers against evidence and abstains when unsupported. Built with LangGraph. | Correctness improved from **34.8% to 60.7%** vs. a naive baseline across 150 questions |
+| [**TrustKYC**](https://github.com/Aahil101/kyc-drift) | CPU-deployable video e-KYC: face verification, liveness and deepfake detection, with concept-drift monitoring and an open-set zero-day attack detector. | Novel-attack detection AUROC of **0.914**; deepfake detector accuracy **97.3%** |
+| [**Finora MarketLens**](https://github.com/Aahil101/Finora-MarketLens) | Market intelligence platform with target-aware financial sentiment (FinBERT + LoRA escalating to an LLM judge), an agentic tool-using assistant and volatility-based portfolio allocation. | Every figure traceable to a live data source; **105 backend tests** |
+| [**CanvasRAFT**](https://github.com/Aahil101/CanvasRAFT) | Collaborative drawing board replicated across a three-node RAFT cluster, with a WebSocket gateway and Docker Compose deployment. Team project. | Continues accepting strokes through **leader failure and re-election** |
+| [**Pulse**](https://github.com/Aahil101/fitness_tracker) | AI nutrition and fitness tracker with photo-based meal logging, a layered nutrition-data pipeline, calorie-deficit tracking and weight forecasting. | Nutrition lookup across **658 menu items** and **2,854 reference foods** |
+| [**Namma Metro Live**](https://github.com/Aahil101/namma-metro-live-tracker-and-simulator) | Real-time simulation of the Bengaluru metro network from published GTFS timetables on real track geometry, built without frameworks or runtime dependencies. | **380 passing tests**; zero runtime dependencies |
 
-**AI / ML**
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="PyTorch, TensorFlow and scikit-learn" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" height="48" />
-  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX" height="48" />
-</p>
+<details>
+<summary><b>Additional projects</b></summary>
+<br/>
 
-**Backend, data & infrastructure**
-<p>
-  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,kafka,spark,docker,nginx,linux,postgres,supabase,redis,ros,git&theme=dark" alt="FastAPI, Node.js, Kafka, Spark, Docker, Nginx, Linux, PostgreSQL, Supabase, Redis, ROS and Git" />
-</p>
-
----
-
-### 🚀 Featured projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🎨 <a href="https://github.com/Aahil101/CanvasRAFT">CanvasRAFT</a></h4>
-      A collaborative drawing board backed by a <b>three-node RAFT cluster</b>. Browser strokes travel through a WebSocket gateway, replicate across nodes, and survive leader failure with automatic re-election.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/RAFT-4DA3FF?style=flat-square" alt="RAFT" />
-      <img src="https://img.shields.io/badge/WebSockets-2c5364?style=flat-square" alt="WebSockets" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-    </td>
-    <td width="50%" valign="top">
-      <h4>📄 <a href="https://github.com/Aahil101/papertrail">PaperTrail</a></h4>
-      Ask questions about PDFs and receive answers with <b>page-level citations</b>. Table-aware ingestion, hybrid retrieval, RRF and cross-encoder reranking improve hit@1 from <b>84.9% to 95.0%</b> on a measured benchmark.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/RAG-4DA3FF?style=flat-square" alt="RAG" />
-      <img src="https://img.shields.io/badge/BM25%20%2B%20Dense-2c5364?style=flat-square" alt="BM25 and dense retrieval" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🏋️ <a href="https://github.com/Aahil101/fitness_tracker">Pulse</a></h4>
-      AI nutrition and fitness tracker with photo-based meal logging, editable nutrition drafts, calorie-deficit tracking, weight forecasting, workouts, generated recaps, and an AI coach.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/React%20%2B%20TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="React and TypeScript" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛡️ <a href="https://github.com/Aahil101/kyc-drift">TrustKYC</a></h4>
-      CPU-deployable video e-KYC with identity verification, liveness and deepfake detection, plus <b>concept-drift monitoring</b> and an <b>open-set zero-day attack detector</b>. Measured novel-attack AUROC: <b>0.914</b>.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/ONNX%20CPU-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📈 <a href="https://github.com/Aahil101/Finora-MarketLens">Finora MarketLens</a></h4>
-      Market intelligence that shows its sources: target-aware financial sentiment with <b>FinBERT + LoRA</b>, an agentic assistant that fetches live prices and news, and portfolio allocation based on realised volatility.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/FinBERT-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="FinBERT" />
-      <img src="https://img.shields.io/badge/Agentic%20tools-4DA3FF?style=flat-square" alt="Agentic tools" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔁 <a href="https://github.com/Aahil101/-Adaptive-RAG-Reliability-Engine">Adaptive RAG Reliability Engine</a></h4>
-      A self-correcting RAG system over SEC filings that grades retrieval, rewrites failed queries, verifies evidence, and abstains when the source cannot support an answer. Adaptive RAG raises answerable-question correctness from <b>34.8% to 60.7%</b>.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Self--correcting%20RAG-4DA3FF?style=flat-square" alt="Self-correcting RAG" />
-      <img src="https://img.shields.io/badge/SEC%20filings-2c5364?style=flat-square" alt="SEC filings" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    </td>
-  </tr>
-</table>
-
----
-
-### 🧩 More projects
-
-| Project | What it is |
+| Project | Description |
 |---|---|
-| [Namma Metro Live](https://github.com/Aahil101/namma-metro-live-tracker-and-simulator) | A real-clock simulation of Bengaluru's Purple, Green and Yellow metro lines, with live train movement, station boards, sharing, time controls and 380 passing tests. |
-| [Real-Time Server Monitoring](https://github.com/Aahil101/Real-Time-Server-Monitoring-Distributed-Pipeline-) | Distributed Kafka and Spark pipeline for CPU, memory, network and disk monitoring across machines connected through ZeroTier. |
-| [Hector SLAM Mapping](https://github.com/Aahil101/HectorSlamMappingMAR) | Indoor mapping and localization robot using LiDAR, ROS, Gazebo, RViz and Hector SLAM. |
-| [NeetCode Submissions](https://github.com/Aahil101/neetcode-submissions) | Solutions and practice submissions for NeetCode problems. |
-| [LeetCode Company Questions](https://github.com/Aahil101/leetcode-companywise-interview-questions) | Company-wise interview question collection for interview preparation. |
+| [Real-Time Server Monitoring](https://github.com/Aahil101/Real-Time-Server-Monitoring-Distributed-Pipeline-) | Distributed Kafka and Spark pipeline with windowed analytics and threshold-based alerting across machines connected over ZeroTier. |
+| [Hector SLAM Mapping](https://github.com/Aahil101/HectorSlamMappingMAR) | Indoor mapping and localisation using LiDAR with ROS, Gazebo and RViz. |
+| [NeetCode Submissions](https://github.com/Aahil101/neetcode-submissions) | Data structures and algorithms practice. |
+
+</details>
 
 ---
 
-### 📊 GitHub stats
+## Technical Skills
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Aahil101&show_icons=true&theme=tokyonight&hide_border=true&count_private=false&include_all_commits=true" alt="Aahil's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aahil101&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
+**Languages**
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Aahil101&theme=tokyonight&hide_border=true" alt="Aahil's GitHub contribution streak" />
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**Machine Learning and AI**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![ONNX](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
+
+**Backend and Data**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+
+**Frontend, Infrastructure and Tools**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![ROS](https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-### 🤝 Let's connect
+## Contact
 
-<p align="center">
-  <a href="https://github.com/Aahil101"><img src="https://img.shields.io/badge/GitHub-Aahil101-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <!-- Add your links here when ready:
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  -->
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-Aahil101-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Aahil101)
+<!-- Add when ready:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shaik%20Aahil%20Farhan-0A66C2?style=flat-square)](https://www.linkedin.com/in/YOUR-LINKEDIN/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@example.com)
+-->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" alt="Footer banner" width="100%" />
-</p>
+Open to software engineering and applied AI internship opportunities.
