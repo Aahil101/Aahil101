@@ -1,12 +1,12 @@
-<!-- Header banner -->
+<!-- Profile README for github.com/Aahil101 -->
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shaik%20Aahil%20Farhan&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=CS%20Student%20%E2%80%A2%20Aspiring%20Software%20Engineer%20%E2%80%A2%20AI%20Hobbyist&descAlignY=58&descSize=16" alt="Shaik Aahil Farhan banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=210&section=header&text=Shaik%20Aahil%20Farhan&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Computer%20Science%20Student%20%E2%80%A2%20Software%20Engineer%20%E2%80%A2%20AI%20Builder&descAlignY=58&descSize=16" alt="Shaik Aahil Farhan banner" width="100%" />
 </p>
 
-<!-- Typing tagline -->
 <p align="center">
   <a href="https://github.com/Aahil101">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=4DA3FF&center=true&vCenter=true&width=620&lines=Building+RAG+systems+that+cite+their+sources;Distributed+systems%3A+Kafka%2C+Spark%2C+RAFT;Reliable+ML+%E2%80%94+measured%2C+not+guessed;Clean%2C+user-centric+interfaces" alt="Typing tagline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=4DA3FF&center=true&vCenter=true&width=650&lines=Building+AI+systems+that+show+their+work;Designing+reliable+distributed+systems;Turning+data+into+useful+products;Measure+first.+Build+better." alt="Typing tagline" />
   </a>
 </p>
 
@@ -23,40 +23,35 @@
 class Aahil:
     role       = "Computer Science student & aspiring software engineer"
     based_in   = "Bangalore, India"
-    focus      = ["Retrieval-augmented generation", "Distributed systems", "ML reliability"]
-    principles = ["Measure before you claim", "Efficient systems", "Clean, user-centric UI"]
-    currently  = "Making AI systems that show their work"
+    focus      = ["RAG systems", "AI products", "Distributed systems", "ML reliability"]
+    principles = ["Measure before you claim", "Build for real users", "Keep systems explainable"]
+    currently  = "Creating software that is useful, reliable, and easy to understand"
 ```
 
-- 🔍 I like projects where the result is **measured** — benchmarks, ablations, and honest baselines.
-- ⚙️ Equally at home wiring up a **Kafka/Spark pipeline** or a **zero-dependency web app**.
-- 🌱 Grinding DSA on [NeetCode](https://github.com/Aahil101/neetcode-submissions) alongside building.
+- 🤖 I build AI systems that are **grounded, measurable, and honest about uncertainty**.
+- ⚙️ I enjoy working across **retrieval, backend systems, data pipelines, and polished interfaces**.
+- 🧪 I prefer projects with benchmarks, failure analysis, and reproducible engineering over vague demos.
+- 🌱 Practising DSA with [NeetCode](https://github.com/Aahil101/neetcode-submissions) while shipping projects.
 
 ---
 
 ### 🛠️ Tech stack
 
-**Languages**
+**Languages & frontend**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,bash&theme=dark" alt="Python, JavaScript, HTML, CSS, Bash" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,bash,react,vite&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS, Bash, React and Vite" />
 </p>
 
 **AI / ML**
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,sklearn,tensorflow&theme=dark" alt="PyTorch, scikit-learn, TensorFlow" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="PyTorch, TensorFlow and scikit-learn" />
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" height="48" />
   <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX" height="48" />
 </p>
 
-**Backend, data & infra**
+**Backend, data & infrastructure**
 <p>
-  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,kafka,docker,nginx,linux,ros,git&theme=dark" alt="FastAPI, Node.js, Kafka, Docker, Nginx, Linux, ROS, Git" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="Apache Spark" height="48" />
-</p>
-
-**Frontend**
-<p>
-  <img src="https://skillicons.dev/icons?i=react,vite&theme=dark" alt="React, Vite" />
+  <img src="https://skillicons.dev/icons?i=fastapi,nodejs,kafka,spark,docker,nginx,linux,postgres,supabase,redis,ros,git&theme=dark" alt="FastAPI, Node.js, Kafka, Spark, Docker, Nginx, Linux, PostgreSQL, Supabase, Redis, ROS and Git" />
 </p>
 
 ---
@@ -66,83 +61,83 @@ class Aahil:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>📄 <a href="https://github.com/Aahil101/papertrail">PaperTrail</a></h4>
-      Grounded question answering over PDFs with <b>page-level citations</b>. Hybrid retrieval (BM25 + dense vectors via RRF) plus cross-encoder reranking lifts <b>hit@1 from 84.9% → 95.0%</b> on a 129-question benchmark — on CPU, at zero cost.
+      <h4>🎨 <a href="https://github.com/Aahil101/CanvasRAFT">CanvasRAFT</a></h4>
+      A collaborative drawing board backed by a <b>three-node RAFT cluster</b>. Browser strokes travel through a WebSocket gateway, replicate across nodes, and survive leader failure with automatic re-election.
       <br/><br/>
-      <img src="https://img.shields.io/badge/RAG-4DA3FF?style=flat-square" />
-      <img src="https://img.shields.io/badge/BM25%20%2B%20Dense-2c5364?style=flat-square" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/RAFT-4DA3FF?style=flat-square" alt="RAFT" />
+      <img src="https://img.shields.io/badge/WebSockets-2c5364?style=flat-square" alt="WebSockets" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+    </td>
+    <td width="50%" valign="top">
+      <h4>📄 <a href="https://github.com/Aahil101/papertrail">PaperTrail</a></h4>
+      Ask questions about PDFs and receive answers with <b>page-level citations</b>. Table-aware ingestion, hybrid retrieval, RRF and cross-encoder reranking improve hit@1 from <b>84.9% to 95.0%</b> on a measured benchmark.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/RAG-4DA3FF?style=flat-square" alt="RAG" />
+      <img src="https://img.shields.io/badge/BM25%20%2B%20Dense-2c5364?style=flat-square" alt="BM25 and dense retrieval" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏋️ <a href="https://github.com/Aahil101/fitness_tracker">Pulse</a></h4>
+      AI nutrition and fitness tracker with photo-based meal logging, editable nutrition drafts, calorie-deficit tracking, weight forecasting, workouts, generated recaps, and an AI coach.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/React%20%2B%20TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="React and TypeScript" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
     </td>
     <td width="50%" valign="top">
       <h4>🛡️ <a href="https://github.com/Aahil101/kyc-drift">TrustKYC</a></h4>
-      Deepfake-aware video e-KYC with <b>concept-drift monitoring</b> and an <b>open-set zero-day attack detector</b>. ViT-B/16 deepfake detector at 97.3% accuracy; novel-attack AUROC <b>0.914</b>. CPU-deployable.
+      CPU-deployable video e-KYC with identity verification, liveness and deepfake detection, plus <b>concept-drift monitoring</b> and an <b>open-set zero-day attack detector</b>. Measured novel-attack AUROC: <b>0.914</b>.
       <br/><br/>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/ONNX%20CPU-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX Runtime" />
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4>🚇 <a href="https://github.com/Aahil101/namma-metro-live-tracker-and-simulator">Namma Metro Live</a></h4>
-      Every Bengaluru metro train moving on a map in real time — simulated from BMRCL GTFS on real track geometry at 60 fps. Shareable train codes, live departure boards, <b>380 passing tests</b>, zero runtime dependencies.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/GTFS-8C2877?style=flat-square" />
-      <img src="https://img.shields.io/badge/No%20build%20step-2ea44f?style=flat-square" />
-    </td>
     <td width="50%" valign="top">
       <h4>📈 <a href="https://github.com/Aahil101/Finora-MarketLens">Finora MarketLens</a></h4>
-      Market intelligence that shows its sources: target-aware financial sentiment (<b>FinBERT + LoRA</b>, escalating to an LLM judge), an agentic assistant that fetches live prices and news, and volatility-based portfolio allocation.
+      Market intelligence that shows its sources: target-aware financial sentiment with <b>FinBERT + LoRA</b>, an agentic assistant that fetches live prices and news, and portfolio allocation based on realised volatility.
       <br/><br/>
-      <img src="https://img.shields.io/badge/FinBERT-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-      <img src="https://img.shields.io/badge/Agents-4DA3FF?style=flat-square" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/FinBERT-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="FinBERT" />
+      <img src="https://img.shields.io/badge/Agentic%20tools-4DA3FF?style=flat-square" alt="Agentic tools" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h4>🔁 <a href="https://github.com/Aahil101/-Adaptive-RAG-Reliability-Engine">Adaptive RAG Reliability Engine</a></h4>
-      Self-correcting retrieval-augmented generation over <b>SEC filings</b>, with a measured reliability evaluation against a naive RAG baseline.
+      A self-correcting RAG system over SEC filings that grades retrieval, rewrites failed queries, verifies evidence, and abstains when the source cannot support an answer. Adaptive RAG raises answerable-question correctness from <b>34.8% to 60.7%</b>.
       <br/><br/>
-      <img src="https://img.shields.io/badge/Self--correcting%20RAG-4DA3FF?style=flat-square" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-    </td>
-    <td width="50%" valign="top">
-      <h4>📡 <a href="https://github.com/Aahil101/Real-Time-Server-Monitoring-Distributed-Pipeline-">Real-Time Server Monitoring</a></h4>
-      Distributed monitoring pipeline across multiple machines over ZeroTier VPN: <b>Kafka</b> ingestion, <b>Spark</b> windowed analytics, and threshold-based alerts for CPU, memory, network (DDoS) and disk.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
-      <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
+      <img src="https://img.shields.io/badge/Self--correcting%20RAG-4DA3FF?style=flat-square" alt="Self-correcting RAG" />
+      <img src="https://img.shields.io/badge/SEC%20filings-2c5364?style=flat-square" alt="SEC filings" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
     </td>
   </tr>
 </table>
 
-<details>
-<summary><b>More projects</b></summary>
-<br/>
+---
+
+### 🧩 More projects
 
 | Project | What it is |
 |---|---|
-| [CC_Orange_Miniraft](https://github.com/Aahil101/CC_Orange_Miniraft) | Distributed drawing board on a 3-node **RAFT** cluster with leader failover, WebSocket gateway, Docker Compose |
-| [HectorSlamMappingMAR](https://github.com/Aahil101/HectorSlamMappingMAR) | Indoor mapping & localization robot using **Hector SLAM**, ROS, Gazebo and RViz |
-| [face-matcher](https://github.com/Aahil101/face-matcher) | Facial recognition for matching users against government-issued KYC ID photos |
-| [OOAD_SHOWTRACK](https://github.com/Aahil101/OOAD_SHOWTRACK) | Movie booking website |
-| [neetcode-submissions](https://github.com/Aahil101/neetcode-submissions) | My NeetCode.io problem submissions |
-
-</details>
+| [Namma Metro Live](https://github.com/Aahil101/namma-metro-live-tracker-and-simulator) | A real-clock simulation of Bengaluru's Purple, Green and Yellow metro lines, with live train movement, station boards, sharing, time controls and 380 passing tests. |
+| [Real-Time Server Monitoring](https://github.com/Aahil101/Real-Time-Server-Monitoring-Distributed-Pipeline-) | Distributed Kafka and Spark pipeline for CPU, memory, network and disk monitoring across machines connected through ZeroTier. |
+| [Hector SLAM Mapping](https://github.com/Aahil101/HectorSlamMappingMAR) | Indoor mapping and localization robot using LiDAR, ROS, Gazebo, RViz and Hector SLAM. |
+| [NeetCode Submissions](https://github.com/Aahil101/neetcode-submissions) | Solutions and practice submissions for NeetCode problems. |
+| [LeetCode Company Questions](https://github.com/Aahil101/leetcode-companywise-interview-questions) | Company-wise interview question collection for interview preparation. |
 
 ---
 
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Aahil101&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Aahil101&show_icons=true&theme=tokyonight&hide_border=true&count_private=false&include_all_commits=true" alt="Aahil's GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aahil101&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Aahil101&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=Aahil101&theme=tokyonight&hide_border=true" alt="Aahil's GitHub contribution streak" />
 </p>
 
 ---
@@ -151,7 +146,7 @@ class Aahil:
 
 <p align="center">
   <a href="https://github.com/Aahil101"><img src="https://img.shields.io/badge/GitHub-Aahil101-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <!-- Uncomment and fill in to add more links:
+  <!-- Add your links here when ready:
   <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:YOUR-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   -->
